@@ -26,3 +26,11 @@ nav a {
 nav a:hover {
     color: #e50914;
 }
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+}

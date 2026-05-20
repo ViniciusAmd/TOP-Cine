@@ -25,3 +25,20 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 24px;
 }
+
+@media (max-width: 768px) {
+    .home {
+        padding: 16px;
+    }
+
+    .home input {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .movies-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 16px;
+    }
+}

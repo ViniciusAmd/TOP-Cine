@@ -2,7 +2,7 @@
     padding: 24px 32px;
 }
 
-;.favoritos h1 {
+.favoritos h1 {
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
@@ -14,6 +14,13 @@
 
 .movies-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minman(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 24px;
+}
+
+@media (max-width: 768px) {
+    .movies-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 16px;
+    }
 }
