@@ -1,0 +1,42 @@
+.movie-card {
+    width: 200px;
+    background-color: #1a1a2e;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-card img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.movie-card h3 {
+    font-size: 0.9rem;
+    padding: 8px;
+}
+
+.movie-card p {
+    font-size: 0.85rem;
+    padding: 0 8px 8px;
+    color: #f5c518;
+}
+
+.movie-card button {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background-color: #e50914;
+    color: white;
+    cursor: pointer;
+    font-family: 'poppins', sans-serif;
+    margin-top: auto;
+}

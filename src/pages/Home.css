@@ -1,0 +1,27 @@
+.home {
+    padding: 24px 32px;
+}
+
+.home input {
+    width: 100%;
+    padding: 12PX 20PX;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 24px;
+    background-color: #1a1a2e;
+    font-family: 'poppins', sans-serif;
+    color: white;
+}
+
+.home h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 24px;
+}
